@@ -53,6 +53,9 @@ img {
   font-weight: regular;
   color: #333;
 }
+.imagem {
+  margin-top: 48px;
+}
 
 ol {
   margin-top: 20px;
@@ -62,6 +65,7 @@ ol li {
   font-size: 28px;
   color: #000;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 ol li h2 {
@@ -82,4 +86,27 @@ ol li #descricao {
 
 .link:hover {
   text-decoration: underline;
+}
+
+.link.vermelho {
+  color: #e5245e;
+}
+
+.link.laranja {
+  color: #e95e10;
+}
+
+.descricao-footer {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: open-sans, sans-serif;
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+  padding: 16px 0;
 }
